@@ -7,16 +7,17 @@ import Footer from './Footer'
 const MainLayout = () => {
   return (
     <>
-        <div style={{display: 'flex'}}>
-            <div className=" ">
+        {/* <div style={{display: 'flex'}}> */}
+            {/* <div className=" ">
                 <Sidebar />
-            </div>
-            <div style={{display: 'flex', flexDirection: 'column', width: '100%'}}>
-                <Header />
+            </div> */}
+            <div>
+            {/* style={{display: 'flex', flexDirection: 'column', width: '100%'}} */}
+                {/* <Header /> */}
                     <Outlet />
                 <Footer />
             </div>
-        </div>
+        {/* </div> */}
     </>
   )
 }
