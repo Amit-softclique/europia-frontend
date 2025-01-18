@@ -5,6 +5,7 @@ import Routes from './routes'
 
 function App() {
 
+  // This is main page.
   return (
     <>
       <BrowserRouter>
